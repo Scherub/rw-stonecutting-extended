@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <StatDef>
+        <defName>StonecuttingSpeed</defName>
+        <label>stonecutting speed</label>
+        <description>Speed at which this person cuts rough stone into blocks.</description>
+        <category>PawnWork</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <toStringStyle>PercentZero</toStringStyle>
+        <statFactors>
+            <li>WorkSpeedGlobal</li>
+        </statFactors>
+        <skillNeedFactors>
+            <li Class="SkillNeed_BaseBonus">
+                <skill>Crafting</skill>
+                <baseValue>0.8</baseValue>
+                <bonusPerLevel>0.075</bonusPerLevel>
+            </li>
+        </skillNeedFactors>
+        <capacityFactors>
+            <li>
+                <capacity>Sight</capacity>
+                <weight>0.3</weight>
+            </li>
+            <li>
+                <capacity>Manipulation</capacity>
+                <weight>0.9</weight>
+            </li>
+        </capacityFactors>
+    </StatDef>
+
+</Defs>
