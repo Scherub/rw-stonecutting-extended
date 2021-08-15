@@ -1,4 +1,6 @@
 ﻿[*.cs]
+indent_style = tab
+indent_size = 4
 
 # S1104: Fields should not have public accessibility
 dotnet_diagnostic.S1104.severity = none
