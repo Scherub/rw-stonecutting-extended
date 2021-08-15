@@ -1,4 +1,6 @@
-﻿[*.cs]
+﻿root = true
+ 
+ [*.cs]
 indent_style = tab
 indent_size = 4
 
