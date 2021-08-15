@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PatchOperationAddOrReplace.cs" />
     <Compile Include="StonecuttingExtendedStartUp.cs" />
     <Compile Include="StonecuttingExtendedDefsUpdater.cs" />
     <Compile Include="Skill.cs" />
