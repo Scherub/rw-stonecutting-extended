@@ -29,10 +29,6 @@ namespace StonecuttingExtended
 			foreach (SkillNeed skillNeed in stonecuttingSpeedStatDef.skillNeedFactors)
 			{
 				skillNeed.skill = GetSkillDef(usedSkill);
-
-				//SkillNeed_BaseBonus skillNeedBaseBonus = skillNeed as SkillNeed_BaseBonus;
-				//skillNeedBaseBonus.skill = GetSkillDef(usedSkill);
-				//skillNeedBaseBonus.
 			}
 		}
 
