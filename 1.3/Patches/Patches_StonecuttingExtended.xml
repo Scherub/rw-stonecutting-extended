@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[@Name = "MakeStoneBlocksBase" or @Name = "MakeStoneBlocksBulkBase"]</xpath>
-		<value>
-			<workSkill>Crafting</workSkill>
-			<workSkillLearnFactor>0.25</workSkillLearnFactor>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/RecipeDef[@Name = "MakeStoneBlocksBase" or @Name = "MakeStoneBlocksBulkBase"]/workSkill</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[@Name = "MakeStoneBlocksBase" or @Name = "MakeStoneBlocksBulkBase"]</xpath>
+			<value>
+				<workSkill>Crafting</workSkill>
+				<workSkillLearnFactor>0.25</workSkillLearnFactor>
+			</value>
+		</nomatch>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
