@@ -11,9 +11,9 @@ This mod adds learning XP for stonecutting again, as well as bulk recipes, cutti
 
 ## FAQ
 
-Can this mod be added and removed safely?
+Can this mod be safely added and removed at any time?
 
-> This mod can be added at any time. Removing this mod **should** only result in a one-time-error message and the loss of any set stonecutting bulk bills. Just to be on the safe side, it is advised to create a separate save game.
+> This mod can be added at any time. Removing this mod **should** only result in a one-time error message and the loss of any set stonecutting bulk bills. Just to be on the safe side, it is advised to create a separate save game.
 
 Does this mod work with stonecutting workbenches from other mods, such as the ones from *Vanilla Expanded*.
 
