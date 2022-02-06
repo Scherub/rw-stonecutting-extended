@@ -19,6 +19,10 @@ Does this mod work with stonecutting workbenches from other mods, such as the on
 
 > Yes, it does. As long as the other mod defines a workbench as *TableStonecutter*, the bulk recipes should show up.
 
+Why is there no 'make any stone blocks x3' recipe?
+
+> Because the recipe won't work without changing the code, as the amount of resulting stones is defined in the source object itself instead of the recipe. I could overwrite the responsible method, but there are other mods modifying the same method. As it is easy with this mod to set up single work orders, I decided to just remove this recipe.
+
 ## Installation
 
 * Go to the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=2571676542) and subscribe to the mod.
