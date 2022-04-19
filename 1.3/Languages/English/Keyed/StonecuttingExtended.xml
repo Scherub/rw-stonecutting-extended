@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <SCE_UsedSkill_Label>Used Skill</SCE_UsedSkill_Label>
+  <SCE_UsedSkill_Description>The skill used for cutting chunks into stone blocks.</SCE_UsedSkill_Description>
+  
+  <SCE_WorkAmountMultiplier>Work Amount Multiplier</SCE_WorkAmountMultiplier>
+  <SCE_BulkWorkAmountMultiplier>Bulk Work Amount Multiplier 3x</SCE_BulkWorkAmountMultiplier>
+  <SCE_SkillLearnFactor>Skill Learning Factor</SCE_SkillLearnFactor>
+
+</LanguageData>
