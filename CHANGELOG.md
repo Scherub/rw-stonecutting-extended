@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0
+* Added German translation
+
 ## 1.2.0
 * Removed 'make any stone blocks x3' recipe.
 
