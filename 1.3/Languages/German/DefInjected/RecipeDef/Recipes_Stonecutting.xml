@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Make_StoneBlocksBulkSandstone.label>Sandsteinblöcke herstellen x3</Make_StoneBlocksBulkSandstone.label>
+  <Make_StoneBlocksBulkSandstone.description>Zerlegt mehrere Sandsteinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkSandstone.description>
+
+  <Make_StoneBlocksBulkGranite.label>Granitblöcke herstellen x3</Make_StoneBlocksBulkGranite.label>
+  <Make_StoneBlocksBulkGranite.description>Zerlegt mehrere Granitbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkGranite.description>
+
+  <Make_StoneBlocksBulkLimestone.label>Kalksteinblöcke herstellen x3</Make_StoneBlocksBulkLimestone.label>
+  <Make_StoneBlocksBulkLimestone.description>Zerlegt mehrere Kalksteinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkLimestone.description>
+
+  <Make_StoneBlocksBulkSlate.label>Schieferblöcke herstellen x3</Make_StoneBlocksBulkSlate.label>
+  <Make_StoneBlocksBulkSlate.description>Zerlegt mehrere Schieferbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkSlate.description>
+
+  <Make_StoneBlocksBulkMarble.label>Marmorblöcke herstellen x3</Make_StoneBlocksBulkMarble.label>
+  <Make_StoneBlocksBulkMarble.description>Zerlegt mehrere Marmorbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkMarble.description>
+
+</LanguageData>
