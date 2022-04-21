@@ -17,5 +17,8 @@
     <li>Ludeon.RimWorld.Royalty</li>
     <li>Ludeon.RimWorld.Ideology</li>
     <li>brrainz.harmony</li>
+    <li>Ogliss.Cupro.CuprosStones</li>
+    <li>Kura.ExtraStoneCupro</li>
+    <li>cucumpear.stonetweaks</li>
   </loadAfter>
 </ModMetaData>

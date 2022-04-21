@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkClaystone</defName>
+        <label>make claystone blocks x3</label>
+        <description>Cuts claystone chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkClaystone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkClaystone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksClaystone>60</BlocksClaystone>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkAndesite</defName>
+        <label>make andesite blocks x3</label>
+        <description>Cuts andesite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkAndesite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkAndesite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksAndesite>60</BlocksAndesite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkSyenite</defName>
+        <label>make syenite blocks x3</label>
+        <description>Cuts syenite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkGneiss</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkSyenite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksSyenite>60</BlocksSyenite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkGneiss</defName>
+        <label>make gneiss blocks x3</label>
+        <description>Cuts gneiss chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkGneiss</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkGneiss</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksGneiss>60</BlocksGneiss>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkQuartzite</defName>
+        <label>make quartzite blocks x3</label>
+        <description>Cuts quartzite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkQuartzite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkQuartzite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksQuartzite>60</BlocksQuartzite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkSchist</defName>
+        <label>make schist blocks x3</label>
+        <description>Cuts schist chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkSchist</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkSchist</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksSchist>60</BlocksSchist>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkGabbro</defName>
+        <label>make gabbro blocks x3</label>
+        <description>Cuts gabbro chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkGabbro</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkGabbro</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksGabbro>60</BlocksGabbro>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkDiorite</defName>
+        <label>make diorite blocks x3</label>
+        <description>Cuts diorite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkDiorite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkDiorite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksDiorite>60</BlocksDiorite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkDunite</defName>
+        <label>make dunite blocks x3</label>
+        <description>Cuts dunite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkDunite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkDunite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksDunite>60</BlocksDunite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Ogliss.Cupro.CuprosStones">
+        <defName>Make_StoneBlocksBulkPegmatite</defName>
+        <label>make pegmatite blocks x3</label>
+        <description>Cuts pegmatite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkPegmatite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkPegmatite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksPegmatite>60</BlocksPegmatite>
+        </products>
+    </RecipeDef>
+
+</Defs>
