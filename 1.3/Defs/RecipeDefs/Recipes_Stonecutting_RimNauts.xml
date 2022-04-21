@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="RadZerp.neoRimNauts">
+        <defName>Make_StoneBlocksBulkHighland</defName>
+        <label>make lunar highland blocks x3</label>
+        <description>Cuts lunar highland chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BiomesNEO_ChunkHighland</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BiomesNEO_ChunkHighland</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BiomesNEO_BlocksHighland>60</BiomesNEO_BlocksHighland>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="RadZerp.neoRimNauts">
+        <defName>Make_StoneBlocksBulkMaria</defName>
+        <label>make maria blocks x3</label>
+        <description>Cuts maria chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BiomesNEO_ChunkMaria</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BiomesNEO_ChunkMaria</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BiomesNEO_BlocksMaria>60</BiomesNEO_BlocksMaria>
+        </products>
+    </RecipeDef>
+
+</Defs>
