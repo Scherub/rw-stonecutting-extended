@@ -57,7 +57,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ChunkGneiss</li>
+                        <li>ChunkSyenite</li>
                     </thingDefs>
                 </filter>
                 <count>3</count>
