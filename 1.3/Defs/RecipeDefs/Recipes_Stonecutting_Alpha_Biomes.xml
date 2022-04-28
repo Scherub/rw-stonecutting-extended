@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Sarg.alphabiomes">
+        <defName>Make_StoneBlocksBulkRoseQuartz</defName>
+        <label>make rose quartz blocks x3</label>
+        <description>Cuts rose quartz chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>GU_ChunkRoseQuartz</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>GU_ChunkRoseQuartz</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <GU_BlocksRoseQuartz>60</GU_BlocksRoseQuartz>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Sarg.alphabiomes">
+        <defName>Make_StoneBlocksBulkCragstone</defName>
+        <label>make cragstone blocks x3</label>
+        <description>Cuts cragstone chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AB_ChunkCragstone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AB_ChunkCragstone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AB_BlocksCragstone>60</AB_BlocksCragstone>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Sarg.alphabiomes">
+        <defName>Make_StoneBlocksBulkObsidian</defName>
+        <label>make obsidian blocks x3</label>
+        <description>Cuts obsidian chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AB_ChunkObsidian</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AB_ChunkObsidian</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AB_BlocksObsidian>60</AB_BlocksObsidian>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="sarg.alphabiomes">
+        <defName>Make_StoneBlocksBulkMudstone</defName>
+        <label>make mudstone blocks x3</label>
+        <description>Cuts mudstone chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AB_ChunkMudstone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AB_ChunkMudstone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AB_BlocksMudstone>60</AB_BlocksMudstone>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="sarg.alphabiomes">
+        <defName>Make_StoneBlocksBulkSlimeStone</defName>
+        <label>turn hardened slime chunks into "food" x3</label>
+        <description>Cuts slime stone chunks into semi-edible food in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AB_ChunkSlimeStone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AB_ChunkSlimeStone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AB_SlimeMeal>3</AB_SlimeMeal>
+        </products>
+    </RecipeDef>
+
+</Defs>
