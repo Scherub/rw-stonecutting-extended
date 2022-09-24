@@ -2,7 +2,7 @@
 <Defs>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkAndesite</defName>
+        <defName>Make_StoneBlocksBulkAndesiteES</defName>
         <label>make andesite blocks x3</label>
         <description>Cuts andesite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -26,7 +26,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkAnorthosite</defName>
+        <defName>Make_StoneBlocksBulkAnorthositeES</defName>
         <label>make anorthosite blocks x3</label>
         <description>Cuts anorthosite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -50,7 +50,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkBasalt</defName>
+        <defName>Make_StoneBlocksBulkBasaltES</defName>
         <label>make basalt blocks x3</label>
         <description>Cuts basalt chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -74,7 +74,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkBlueschist</defName>
+        <defName>Make_StoneBlocksBulkBlueschistES</defName>
         <label>make blueschist blocks x3</label>
         <description>Cuts blueschist chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -98,7 +98,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkChalk</defName>
+        <defName>Make_StoneBlocksBulkChalkES</defName>
         <label>make chalk blocks x3</label>
         <description>Cuts chalk chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -122,7 +122,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkCharnockite</defName>
+        <defName>Make_StoneBlocksBulkCharnockiteES</defName>
         <label>make charnockite blocks x3</label>
         <description>Cuts charnockite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -146,7 +146,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkCreoleMarble</defName>
+        <defName>Make_StoneBlocksBulkCreoleMarbleES</defName>
         <label>make creole marble blocks x3</label>
         <description>Cuts creole marble chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -170,7 +170,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkDacite</defName>
+        <defName>Make_StoneBlocksBulkDaciteES</defName>
         <label>make dacite blocks x3</label>
         <description>Cuts dacite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -194,7 +194,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkDunite</defName>
+        <defName>Make_StoneBlocksBulkDuniteES</defName>
         <label>make dunite blocks x3</label>
         <description>Cuts dunite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -218,7 +218,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkEmperadordark</defName>
+        <defName>Make_StoneBlocksBulkEmperadordarkES</defName>
         <label>make emperador dark blocks x3</label>
         <description>Cuts emperador dark chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -242,7 +242,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkEtowahMarble</defName>
+        <defName>Make_StoneBlocksBulkEtowahMarbleES</defName>
         <label>make etowah marble blocks x3</label>
         <description>Cuts etowah marble chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -266,7 +266,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkGabbro</defName>
+        <defName>Make_StoneBlocksBulkGabbroES</defName>
         <label>make gabbro blocks x3</label>
         <description>Cuts gabbro chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -290,7 +290,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkGreenSchist</defName>
+        <defName>Make_StoneBlocksBulkGreenSchistES</defName>
         <label>make greenschist blocks x3</label>
         <description>Cuts greenschist chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -314,7 +314,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkJaspillite</defName>
+        <defName>Make_StoneBlocksBulkJaspilliteES</defName>
         <label>make jaspillite blocks x3</label>
         <description>Cuts jaspillite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -338,7 +338,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkLepidolite</defName>
+        <defName>Make_StoneBlocksBulkLepidoliteES</defName>
         <label>make lepidolite blocks x3</label>
         <description>Cuts lepidolite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -362,7 +362,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkLherzolite</defName>
+        <defName>Make_StoneBlocksBulkLherzoliteES</defName>
         <label>make lherzolite blocks x3</label>
         <description>Cuts lherzolite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -386,7 +386,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkLignite</defName>
+        <defName>Make_StoneBlocksBulkLigniteES</defName>
         <label>make lignite blocks x3</label>
         <description>Cuts lignite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -410,7 +410,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkMigmatite</defName>
+        <defName>Make_StoneBlocksBulkMigmatiteES</defName>
         <label>make migmatite blocks x3</label>
         <description>Cuts migmatite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -434,7 +434,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkMonzonite</defName>
+        <defName>Make_StoneBlocksBulkMonzoniteES</defName>
         <label>make monzonite blocks x3</label>
         <description>Cuts monzonite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -458,7 +458,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkObsidian</defName>
+        <defName>Make_StoneBlocksBulkObsidianES</defName>
         <label>make obsidian blocks x3</label>
         <description>Cuts obsidian chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -482,7 +482,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkRhyolite</defName>
+        <defName>Make_StoneBlocksBulkRhyoliteES</defName>
         <label>make rhyolite blocks x3</label>
         <description>Cuts rhyolite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -506,7 +506,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkScoria</defName>
+        <defName>Make_StoneBlocksBulkScoriaES</defName>
         <label>make scoria blocks x3</label>
         <description>Cuts scoria chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -530,7 +530,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkSerpentinite</defName>
+        <defName>Make_StoneBlocksBulkSerpentiniteES</defName>
         <label>make serpentinite blocks x3</label>
         <description>Cuts serpentinite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -554,7 +554,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkSiltstone</defName>
+        <defName>Make_StoneBlocksBulkSiltstoneES</defName>
         <label>make siltstone blocks x3</label>
         <description>Cuts siltstone chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -578,7 +578,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkSovite</defName>
+        <defName>Make_StoneBlocksBulkSoviteES</defName>
         <label>make sovite blocks x3</label>
         <description>Cuts sovite chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -602,7 +602,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Kura.ExtraStone">
-        <defName>Make_StoneBlocksBulkThometzekite</defName>
+        <defName>Make_StoneBlocksBulkThometzekiteES</defName>
         <label>make thometzekite blocks x3</label>
         <description>Cuts thometzekite chunks into usable blocks in bulk.</description>
         <ingredients>

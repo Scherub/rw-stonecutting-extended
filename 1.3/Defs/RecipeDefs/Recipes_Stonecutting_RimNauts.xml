@@ -2,7 +2,7 @@
 <Defs>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="RadZerp.neoRimNauts">
-        <defName>Make_StoneBlocksBulkHighland</defName>
+        <defName>Make_StoneBlocksBulkHighlandRN</defName>
         <label>make lunar highland blocks x3</label>
         <description>Cuts lunar highland chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -26,7 +26,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="RadZerp.neoRimNauts">
-        <defName>Make_StoneBlocksBulkMaria</defName>
+        <defName>Make_StoneBlocksBulkMariaRN</defName>
         <label>make maria blocks x3</label>
         <description>Cuts maria chunks into usable blocks in bulk.</description>
         <ingredients>

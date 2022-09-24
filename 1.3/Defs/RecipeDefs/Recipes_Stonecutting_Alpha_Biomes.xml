@@ -2,7 +2,7 @@
 <Defs>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Sarg.alphabiomes">
-        <defName>Make_StoneBlocksBulkRoseQuartz</defName>
+        <defName>Make_StoneBlocksBulkRoseQuartzAB</defName>
         <label>make rose quartz blocks x3</label>
         <description>Cuts rose quartz chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -26,7 +26,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Sarg.alphabiomes">
-        <defName>Make_StoneBlocksBulkCragstone</defName>
+        <defName>Make_StoneBlocksBulkCragstoneAB</defName>
         <label>make cragstone blocks x3</label>
         <description>Cuts cragstone chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -50,7 +50,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Sarg.alphabiomes">
-        <defName>Make_StoneBlocksBulkObsidian</defName>
+        <defName>Make_StoneBlocksBulkObsidianAB</defName>
         <label>make obsidian blocks x3</label>
         <description>Cuts obsidian chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -74,7 +74,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="sarg.alphabiomes">
-        <defName>Make_StoneBlocksBulkMudstone</defName>
+        <defName>Make_StoneBlocksBulkMudstoneAB</defName>
         <label>make mudstone blocks x3</label>
         <description>Cuts mudstone chunks into usable blocks in bulk.</description>
         <ingredients>
@@ -98,7 +98,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="sarg.alphabiomes">
-        <defName>Make_StoneBlocksBulkSlimeStone</defName>
+        <defName>Make_StoneBlocksBulkSlimeStoneAB</defName>
         <label>turn hardened slime chunks into "food" x3</label>
         <description>Cuts slime stone chunks into semi-edible food in bulk.</description>
         <ingredients>
