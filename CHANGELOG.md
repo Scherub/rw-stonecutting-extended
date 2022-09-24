@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.4.0
+* Added support for the following 3rd party stone block mods
+  * Alpha Biomes
+  * CCP's Stone Tweaks
+  * Cupro's Stones
+  * [K]Extra Stone
+  * [K]Extra Stone(w/ Cupro's Textures)
+  * RimNauts
+
 ## 1.3.0
 * Added German translation
 

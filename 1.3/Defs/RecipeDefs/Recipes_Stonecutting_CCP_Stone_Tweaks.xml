@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="cucumpear.stonetweaks">
+        <defName>Make_StoneBlocksBulkPinkMarble</defName>
+        <label>make pink marble blocks x3</label>
+        <description>Cuts pink marble chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkPinkMarble</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkPinkMarble</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksPinkMarble>60</BlocksPinkMarble>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="cucumpear.stonetweaks">
+        <defName>Make_StoneBlocksBulkBlueGranite</defName>
+        <label>make blue granite blocks x3</label>
+        <description>Cuts blue granite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkBlueGranite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkBlueGranite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksBlueGranite>60</BlocksBlueGranite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="cucumpear.stonetweaks">
+        <defName>Make_StoneBlocksBulkGreenMarble</defName>
+        <label>make green marble blocks x3</label>
+        <description>Cuts green marble chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkGreenMarble</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkGreenMarble</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksGreenMarble>60</BlocksGreenMarble>
+        </products>
+    </RecipeDef>
+
+</Defs>
