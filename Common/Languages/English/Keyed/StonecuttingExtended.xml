@@ -3,9 +3,12 @@
 
   <SCE_UsedSkill_Label>Used Skill</SCE_UsedSkill_Label>
   <SCE_UsedSkill_Description>The skill used for cutting chunks into stone blocks.</SCE_UsedSkill_Description>
-  
+
+  <SCE_WorkingAndLearningSpeed_Label>Working and Learning Speed</SCE_WorkingAndLearningSpeed_Label>
+  <SCE_WorkingAndLearningSpeed_Description>Set the multipliers for working and learning speed.</SCE_WorkingAndLearningSpeed_Description>
+
   <SCE_WorkAmountMultiplier>Work Amount Multiplier</SCE_WorkAmountMultiplier>
   <SCE_BulkWorkAmountMultiplier>Bulk Work Amount Multiplier 3x</SCE_BulkWorkAmountMultiplier>
   <SCE_SkillLearnFactor>Skill Learning Factor</SCE_SkillLearnFactor>
-
+  
 </LanguageData>
