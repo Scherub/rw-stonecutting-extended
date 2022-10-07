@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>StonecuttingExtended</RootNamespace>
+	<LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+	<AssemblyName>StonecuttingExtended</AssemblyName>
+	<ModDirectory>$(SolutionDir)..\1.4\Assemblies\</ModDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\StonecuttingExtended 1.3\Source\Skill.cs" Link="Source\Skill.cs" />
+    <Compile Include="..\StonecuttingExtended 1.3\Source\StonecuttingExtendedDefsUpdater.cs" Link="Source\StonecuttingExtendedDefsUpdater.cs" />
+    <Compile Include="..\StonecuttingExtended 1.3\Source\StonecuttingExtendedMod.cs" Link="Source\StonecuttingExtendedMod.cs" />
+    <Compile Include="..\StonecuttingExtended 1.3\Source\StonecuttingExtendedSettings.cs" Link="Source\StonecuttingExtendedSettings.cs" />
+    <Compile Include="..\StonecuttingExtended 1.3\Source\StonecuttingExtendedStartUp.cs" Link="Source\StonecuttingExtendedStartUp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Source\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3389" />
+  </ItemGroup>
+
+  <Target Name="CopyAssemblyToModDirectory" AfterTargets="Build">
+	<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModDirectory)" />
+	<Message Importance="high" Text="Copied '$(TargetFileName)' to '$(ModDirectory).'" />
+  </Target>
+
+</Project>
