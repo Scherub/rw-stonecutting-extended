@@ -31,21 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PatchOperationAddOrReplace.cs" />
-    <Compile Include="StonecuttingExtendedStartUp.cs" />
-    <Compile Include="StonecuttingExtendedDefsUpdater.cs" />
-    <Compile Include="Skill.cs" />
-    <Compile Include="StonecuttingExtendedMod.cs" />
+    <Compile Include="Source\StonecuttingExtendedStartUp.cs" />
+    <Compile Include="Source\StonecuttingExtendedDefsUpdater.cs" />
+    <Compile Include="Source\Skill.cs" />
+    <Compile Include="Source\StonecuttingExtendedMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StonecuttingExtendedSettings.cs" />
+    <Compile Include="Source\StonecuttingExtendedSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
       <Version>1.3.3080</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".editorconfig" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
