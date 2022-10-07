@@ -25,6 +25,14 @@ namespace StonecuttingExtended
 			base.ExposeData();
 		}
 
+		public void Reset()
+		{
+			workAmountMultiplier = 1f;
+			bulkWorkAmountMultiplier = 0.8f;
+			skillLearnFactor = 0.25f;
+			usedSkill = Skill.Crafting;
+		}
+
 		public float GetWorkAmount()
 		{
 			return DEFAULT_WORK_AMOUNT * workAmountMultiplier;
