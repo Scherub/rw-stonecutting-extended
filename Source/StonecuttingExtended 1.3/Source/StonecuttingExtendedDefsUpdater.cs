@@ -53,7 +53,6 @@ namespace StonecuttingExtended
 				return DefDatabase<SkillDef>.GetNamed("Artistic");
 			else
 				return DefDatabase<SkillDef>.GetNamed("Crafting");
-
 		}
 	}
 }

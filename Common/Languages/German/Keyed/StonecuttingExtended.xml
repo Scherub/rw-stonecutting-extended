@@ -4,6 +4,9 @@
   <SCE_UsedSkill_Label>Benutzte Fähigkeit</SCE_UsedSkill_Label>
   <SCE_UsedSkill_Description>Die Fähigkeit, welche für das Zerlegen der Brocken in Steinblöcke verwendet wird.</SCE_UsedSkill_Description>
   
+  <SCE_WorkingAndLearningSpeed_Label>Arbeits- und Lerngeschwindigkeit</SCE_WorkingAndLearningSpeed_Label>
+  <SCE_WorkingAndLearningSpeed_Description>Setze die Multiplikatoren für die Arbeits- und Lerngeschwindigkeit.</SCE_WorkingAndLearningSpeed_Description>
+
   <SCE_WorkAmountMultiplier>Arbeitsaufwand-Faktor</SCE_WorkAmountMultiplier>
   <SCE_BulkWorkAmountMultiplier>Arbeitsaufwand-Faktor 3x</SCE_BulkWorkAmountMultiplier>
   <SCE_SkillLearnFactor>Fähigkeits-Lernfaktor</SCE_SkillLearnFactor>
