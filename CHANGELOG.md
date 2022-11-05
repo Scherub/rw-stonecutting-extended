@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.0
+* Supports RimWorld v1.4
+* Added construction as available skill
+* Added 'any stone blocks x3' bulk recipe again
+
 ## 1.4.0
 * Added support for the following 3rd party stone block mods
   * Alpha Biomes
