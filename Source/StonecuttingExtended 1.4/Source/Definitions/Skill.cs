@@ -3,6 +3,9 @@
 	public enum Skill
 	{
 		Crafting,
-		Art
+		
+		Art,
+		
+		Construction
 	}
 }

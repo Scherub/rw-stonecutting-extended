@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StonecuttingExtended", "StonecuttingExtended.csproj", "{291B4DCD-4226-4036-B5DB-6098A5D02D59}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E7F1D61-B7BA-4E43-9826-551473F02040}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StonecuttingExtended 1.4", "StonecuttingExtended 1.4\StonecuttingExtended 1.4.csproj", "{395C9A8A-FB70-4EBC-AFC5-809F148CD5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StonecuttingExtended 1.3", "StonecuttingExtended 1.3\StonecuttingExtended 1.3.csproj", "{291B4DCD-4226-4036-B5DB-6098A5D02D59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,6 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{395C9A8A-FB70-4EBC-AFC5-809F148CD5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395C9A8A-FB70-4EBC-AFC5-809F148CD5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395C9A8A-FB70-4EBC-AFC5-809F148CD5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395C9A8A-FB70-4EBC-AFC5-809F148CD5EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{291B4DCD-4226-4036-B5DB-6098A5D02D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{291B4DCD-4226-4036-B5DB-6098A5D02D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{291B4DCD-4226-4036-B5DB-6098A5D02D59}.Release|Any CPU.ActiveCfg = Release|Any CPU

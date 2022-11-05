@@ -1,8 +1,8 @@
 ﻿using Verse;
 
-namespace StonecuttingExtended
+namespace StonecuttingExtended.Settings
 {
-	public class StonecuttingExtendedSettings : ModSettings
+	public class StonecuttingSettings : ModSettings
 	{
 		public const float DEFAULT_WORK_AMOUNT = 1600;
 
@@ -23,6 +23,14 @@ namespace StonecuttingExtended
 			Scribe_Values.Look<Skill>(ref usedSkill, "UsedSkill", 0);
 
 			base.ExposeData();
+		}
+
+		public void Reset()
+		{
+			workAmountMultiplier = 1f;
+			bulkWorkAmountMultiplier = 0.8f;
+			skillLearnFactor = 0.25f;
+			usedSkill = Skill.Crafting;
 		}
 
 		public float GetWorkAmount()
