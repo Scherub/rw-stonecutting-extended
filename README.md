@@ -7,7 +7,7 @@ This mod adds learning XP for stonecutting again, as well as bulk recipes, cutti
 * Adds bulk bills for stonecutting: 3 chunks at once = 60 stone blocks
 * Allows you to gain XP again, the amount can be changed.
 * Allows you to change the required work amount, separately adjustable for single and bulk bills.
-* Select the used skill: Crafting or Artistic
+* Select the used skill: Artistic, Construction or Crafting
 
 ## FAQ
 
