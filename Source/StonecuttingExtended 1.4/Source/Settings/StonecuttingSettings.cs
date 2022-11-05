@@ -1,8 +1,8 @@
 ﻿using Verse;
 
-namespace StonecuttingExtended
+namespace StonecuttingExtended.Settings
 {
-	public class StonecuttingExtendedSettings : ModSettings
+	public class StonecuttingSettings : ModSettings
 	{
 		public const float DEFAULT_WORK_AMOUNT = 1600;
 

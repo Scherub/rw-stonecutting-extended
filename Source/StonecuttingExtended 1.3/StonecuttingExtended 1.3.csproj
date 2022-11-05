@@ -10,7 +10,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3080" />
+    <Compile Include="..\StonecuttingExtended 1.4\Source\Definitions\Skill.cs" Link="Source\Definitions\Skill.cs" />
+    <Compile Include="..\StonecuttingExtended 1.4\Source\Defs\DefsUpdater.cs" Link="Source\Defs\DefsUpdater.cs" />
+    <Compile Include="..\StonecuttingExtended 1.4\Source\Settings\StonecuttingSettings.cs" Link="Source\Settings\StonecuttingSettings.cs" />
+    <Compile Include="..\StonecuttingExtended 1.4\Source\StonecuttingMod.cs" Link="Source\StonecuttingMod.cs" />
+    <Compile Include="..\StonecuttingExtended 1.4\Source\StonecuttingModStartUp.cs" Link="Source\StonecuttingModStartUp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3387" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Source\Definitions\" />
+    <Folder Include="Source\Defs\" />
   </ItemGroup>
 
   <Target Name="CopyAssemblyToModDirectory" AfterTargets="Build">

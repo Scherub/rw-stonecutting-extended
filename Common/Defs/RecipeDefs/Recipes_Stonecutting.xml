@@ -14,6 +14,31 @@
     </RecipeDef>
 
     <RecipeDef ParentName="MakeStoneBlocksBulkBase">
+        <defName>Make_StoneBlocksBulkAny</defName>
+        <label>make any stone blocks x3</label>
+        <description>Cut rock chunks into usable stone blocks in bulk.</description>
+        <workerCounterClass>RecipeWorkerCounter_MakeStoneBlocks</workerCounterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>StoneChunks</li>
+                    </categories>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>StoneChunks</li>
+            </categories>
+        </fixedIngredientFilter>
+        <specialProducts>
+            <li>Butchery</li>
+        </specialProducts>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase">
         <defName>Make_StoneBlocksBulkSandstone</defName>
         <label>make sandstone blocks x3</label>
         <description>Cuts sandstone chunks into usable blocks in bulk.</description>

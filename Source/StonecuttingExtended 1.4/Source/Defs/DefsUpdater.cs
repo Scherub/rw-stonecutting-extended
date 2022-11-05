@@ -1,20 +1,21 @@
 ﻿using System.Linq;
 using RimWorld;
+using StonecuttingExtended.Settings;
 using Verse;
 
-namespace StonecuttingExtended
+namespace StonecuttingExtended.Defs
 {
-	public static class StonecuttingExtendedDefsUpdater
+	public static class DefsUpdater
 	{
 		public static void UpdateDefs()
 		{
-			StonecuttingExtendedSettings settings = LoadedModManager.GetMod<StonecuttingExtendedMod>().GetSettings<StonecuttingExtendedSettings>();
+			StonecuttingSettings settings = LoadedModManager.GetMod<StonecuttingMod>().GetSettings<StonecuttingSettings>();
 
 			UpdateStonecuttingSpeedStat(settings);
 			UpdateStonecuttingRecipes(settings);
 		}
 
-		private static void UpdateStonecuttingSpeedStat(StonecuttingExtendedSettings settings)
+		private static void UpdateStonecuttingSpeedStat(StonecuttingSettings settings)
 		{
 			Skill usedSkill = settings.usedSkill;
 
@@ -32,7 +33,7 @@ namespace StonecuttingExtended
 			}
 		}
 
-		private static void UpdateStonecuttingRecipes(StonecuttingExtendedSettings settings)
+		private static void UpdateStonecuttingRecipes(StonecuttingSettings settings)
 		{
 			float workAmount = settings.GetWorkAmount();
 			float bulkWorkAmount = settings.GetBulkWorkAmount();
@@ -50,9 +51,11 @@ namespace StonecuttingExtended
 		private static SkillDef GetSkillDef(Skill skill)
 		{
 			if (skill == Skill.Art)
-				return DefDatabase<SkillDef>.GetNamed("Artistic");
+				return SkillDefOf.Artistic;
+			else if (skill == Skill.Construction)
+				return SkillDefOf.Construction;
 			else
-				return DefDatabase<SkillDef>.GetNamed("Crafting");
+				return SkillDefOf.Crafting;
 		}
 	}
 }
