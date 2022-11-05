@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using RimWorld;
+using UnityEngine;
 using Verse;
 
-namespace StonecuttingExtended
+namespace StonecuttingExtended.Settings
 {
-	public static class StonecuttingExtendedDisplaySettings
+	public static class StonecuttingDisplaySettings
 	{
-		public static void DisplaySettings(StonecuttingExtendedSettings settings, Rect inRect)
+		public static void DisplaySettings(StonecuttingSettings settings, Rect inRect)
 		{
 			float margin = 16f;
 			float columnWidth = inRect.width / 2f;
@@ -16,7 +17,7 @@ namespace StonecuttingExtended
 			DisplayRightPane(settings, new Rect(inRect.x + columnWidth + margin, inRect.y, usableColumnWidth, inRect.height));
 		}
 
-		static void DisplaySkillSelection(StonecuttingExtendedSettings settings, Rect inRect)
+		static void DisplaySkillSelection(StonecuttingSettings settings, Rect inRect)
 		{
 			Listing_Standard listingStandard = new();
 
@@ -26,11 +27,14 @@ namespace StonecuttingExtended
 
 			listingStandard.BeginSubSection();
 
-			if (listingStandard.RadioButtonLabel("WorkTagCrafting".Translate(), settings.usedSkill == Skill.Crafting))
-				settings.usedSkill = Skill.Crafting;
-
-			if (listingStandard.RadioButtonLabel("WorkTagArtistic".Translate(), settings.usedSkill == Skill.Art))
+			if (listingStandard.RadioButtonLabel(SkillDefOf.Artistic.LabelCap, settings.usedSkill == Skill.Art))
 				settings.usedSkill = Skill.Art;
+
+			if (listingStandard.RadioButtonLabel(SkillDefOf.Construction.LabelCap, settings.usedSkill == Skill.Construction))
+				settings.usedSkill = Skill.Construction;
+
+			if (listingStandard.RadioButtonLabel(SkillDefOf.Crafting.LabelCap, settings.usedSkill == Skill.Crafting))
+				settings.usedSkill = Skill.Crafting;
 
 			listingStandard.EndSubSection();
 
@@ -48,7 +52,7 @@ namespace StonecuttingExtended
 			listingStandard.End();
 		}
 
-		static void DisplayRightPane(StonecuttingExtendedSettings settings, Rect inRect)
+		static void DisplayRightPane(StonecuttingSettings settings, Rect inRect)
 		{
 			Listing_Standard listingStandard = new();
 

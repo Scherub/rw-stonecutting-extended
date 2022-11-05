@@ -2,11 +2,11 @@
 using UnityEngine;
 using Verse;
 
-namespace StonecuttingExtended
+namespace StonecuttingExtended.Settings
 {
-	public static class StonecuttingExtendedDisplaySettings
+	public static class StonecuttingDisplaySettings
 	{
-		public static void DisplaySettings(StonecuttingExtendedSettings settings, Rect inRect)
+		public static void DisplaySettings(StonecuttingSettings settings, Rect inRect)
 		{
 			Listing_Standard listingStandard = new();
 
