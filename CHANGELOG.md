@@ -1,7 +1,10 @@
 # Changelog
 
+## 1.6.0
+* Added support for RimWorld v1.5
+
 ## 1.5.0
-* Supports RimWorld v1.4
+* Added support for RimWorld v1.4
 * Added construction as available skill
 * Added 'any stone blocks x3' bulk recipe again
 
