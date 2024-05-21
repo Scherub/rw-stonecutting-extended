@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="pphhyy.GuldenNew">
+        <defName>Make_StoneBlocksBulkAurelianStone</defName>
+        <label>make aurelian stone blocks x3</label>
+        <description>Cuts aurelian stone chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkAurelianStone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkAurelianStone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksAurelianStone>60</BlocksAurelianStone>
+        </products>
+    </RecipeDef>
+
+</Defs>
