@@ -4,10 +4,21 @@ This mod adds learning XP for stonecutting again, as well as bulk recipes, cutti
 
 ## Features
 
-* Adds bulk bills for stonecutting: 3 chunks at once = 60 stone blocks
-* Allows you to gain XP again, the amount can be changed.
-* Allows you to change the required work amount, separately adjustable for single and bulk bills.
-* Select the used skill: Artistic, Construction or Crafting
+- Adds bulk bills for stonecutting: 3 chunks at once = 60 stone blocks
+- Allows you to gain XP again, the amount can be changed.
+- Allows you to change the required work amount, separately adjustable for single and bulk bills.
+- Select the used skill: Artistic, Construction or Crafting
+
+## Supported Mods
+
+The following stone block mods are supported:
+- Alpha Biomes
+- CCP's Stone Tweaks
+- Cupro's Stones
+- Gulden Biome
+- [K]Extra Stone
+- [K]Extra Stone(w/ Cupro's Textures)
+- RimNauts
 
 ## FAQ
 
@@ -25,4 +36,4 @@ Why is there no 'make any stone blocks x3' recipe?
 
 ## Installation
 
-* Go to the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=2571676542) and subscribe to the mod.
+- Go to the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=2571676542) and subscribe to the mod.
