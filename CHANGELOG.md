@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.7.0
+* Added mod support for Gulden Biome
+
 ## 1.6.0
 * Added support for RimWorld v1.5
 
