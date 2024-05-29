@@ -1,7 +1,11 @@
 # Changelog
 
+## 1.8.0
+
+* Split "[K]Extra Stone" recipes by version, as the v1.5 version has different stone type definitions
+
 ## 1.7.0
-* Added mod support for Gulden Biome
+* Added support for the mod Gulden Biome
 
 ## 1.6.0
 * Added support for RimWorld v1.5
