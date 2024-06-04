@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1
+
+* Added support for the new (old and separate) mod [K]Extra Stone
+
 ## 1.8.0
 
 * Split "[K]Extra Stone" recipes by version, as the v1.5 version has different stone type definitions
