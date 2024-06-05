@@ -3,7 +3,7 @@
   <packageId>Scherub.StonecuttingExtended</packageId>
   <name>Stonecutting Extended</name>
   <author>Scherub</author>
-  <modVersion IgnoreIfNoMatchingField="True">1.8.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.8.2</modVersion>
   <description>This mod adds learning XP for stonecutting again, as well as bulk recipes, cutting three chunks at once.
 
 Features:
