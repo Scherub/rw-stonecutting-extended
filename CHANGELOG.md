@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.2
+
+* Added missing German language entry for 'Make Any Stone Blocks x3' recipe
+
 ## 1.8.1
 
 * Added support for the new (old and separate) mod [K]Extra Stone
