@@ -16,4 +16,7 @@
   <Make_StoneBlocksBulkMarble.label>Marmorblöcke herstellen x3</Make_StoneBlocksBulkMarble.label>
   <Make_StoneBlocksBulkMarble.description>Zerlegt mehrere Marmorbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkMarble.description>
 
+  <Make_StoneBlocksBulkAny.label>Beliebige Steinblöcke herstellen x3</Make_StoneBlocksBulkAny.label>
+  <Make_StoneBlocksBulkAny.description>Zerlegt mehrere beliebige Steinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkAny.description>
+
 </LanguageData>
