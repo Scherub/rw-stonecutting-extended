@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.10.0
+
+* Added support for RimWorld v1.6
+
 ## 1.9.0
 
 * Adapted to changes (different type definitions) of mod [K]Extra Stone(w/ Cupro's Textures)
