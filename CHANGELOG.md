@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.0
+
+* Adapted to changes (different type definitions) of mod [K]Extra Stone(w/ Cupro's Textures)
+
 ## 1.8.2
 
 * Added missing German language entry for 'Make Any Stone Blocks x3' recipe
