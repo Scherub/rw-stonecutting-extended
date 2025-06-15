@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StonecuttingExtended 1.3", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StonecuttingExtended 1.5", "StonecuttingExtended 1.5\StonecuttingExtended 1.5.csproj", "{F08F13ED-E70A-4263-AB17-F3AA1695CCD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StonecuttingExtended 1.6", "StonecuttingExtended 1.6\StonecuttingExtended 1.6.csproj", "{F7B9B91E-BCF2-31A6-1C80-ABBC3B0B9512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F08F13ED-E70A-4263-AB17-F3AA1695CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08F13ED-E70A-4263-AB17-F3AA1695CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08F13ED-E70A-4263-AB17-F3AA1695CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B9B91E-BCF2-31A6-1C80-ABBC3B0B9512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B9B91E-BCF2-31A6-1C80-ABBC3B0B9512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B9B91E-BCF2-31A6-1C80-ABBC3B0B9512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B9B91E-BCF2-31A6-1C80-ABBC3B0B9512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
