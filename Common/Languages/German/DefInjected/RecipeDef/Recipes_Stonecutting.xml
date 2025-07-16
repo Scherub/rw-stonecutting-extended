@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <Make_StoneBlocksBulkAny.label>Beliebige Steinblöcke herstellen x3</Make_StoneBlocksBulkAny.label>
+  <Make_StoneBlocksBulkAny.description>Zerlegt mehrere beliebige Steinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkAny.description>
+
   <Make_StoneBlocksBulkSandstone.label>Sandsteinblöcke herstellen x3</Make_StoneBlocksBulkSandstone.label>
   <Make_StoneBlocksBulkSandstone.description>Zerlegt mehrere Sandsteinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkSandstone.description>
 
@@ -16,7 +19,7 @@
   <Make_StoneBlocksBulkMarble.label>Marmorblöcke herstellen x3</Make_StoneBlocksBulkMarble.label>
   <Make_StoneBlocksBulkMarble.description>Zerlegt mehrere Marmorbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkMarble.description>
 
-  <Make_StoneBlocksBulkAny.label>Beliebige Steinblöcke herstellen x3</Make_StoneBlocksBulkAny.label>
-  <Make_StoneBlocksBulkAny.description>Zerlegt mehrere beliebige Steinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkAny.description>
+  <Make_StoneBlocksBulkVacstone.label>Vakuumsteinblöcke herstellen x3</Make_StoneBlocksBulkVacstone.label>
+  <Make_StoneBlocksBulkVacstone.description>Zerlegt mehrere Vakuumsteinbrocken in nutzbare Steinblöcke.</Make_StoneBlocksBulkVacstone.description>
 
 </LanguageData>

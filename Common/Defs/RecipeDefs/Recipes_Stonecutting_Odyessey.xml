@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="ludeon.rimworld.odyssey">
+        <defName>Make_StoneBlocksBulkVacstone</defName>
+        <label>make Vacstone blocks x3</label>
+        <description>Cuts Vacstone chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkVacstone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkVacstone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksVacstone>60</BlocksVacstone>
+        </products>
+    </RecipeDef>
+
+</Defs>
