@@ -1,23 +1,21 @@
 # Changelog
 
-## 1.10.0
+## 1.11.0
+* Added recipe for Vactone blocks (Odyssey DLC)
 
+## 1.10.0
 * Added support for RimWorld v1.6
 
 ## 1.9.0
-
 * Adapted to changes (different type definitions) of mod [K]Extra Stone(w/ Cupro's Textures)
 
 ## 1.8.2
-
 * Added missing German language entry for 'Make Any Stone Blocks x3' recipe
 
 ## 1.8.1
-
 * Added support for the new (old and separate) mod [K]Extra Stone
 
 ## 1.8.0
-
 * Split "[K]Extra Stone" recipes by version, as the v1.5 version has different stone type definitions
 
 ## 1.7.0
