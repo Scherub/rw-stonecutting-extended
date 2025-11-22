@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.12.0
+* Added support for the mod GlitterStone
+* Added support for the mod Medieval Overhaul
+* Added missing recipes for mods [K]Extra Stone and [K]Extra Stone (Cupro)
+* Renamed label "obsidian" to "schorl" in mods [K]Extra Stone and [K]Extra Stone (Cupro) (only RimWorld v1.6)
+* Adopted to new naming scheme of various stone types in mod [K]Extra Stone (Cupro) (only RimWorld v1.6)
+
 ## 1.11.0
 * Added recipe for Vactone blocks (Odyssey DLC)
 
