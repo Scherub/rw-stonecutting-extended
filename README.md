@@ -15,9 +15,11 @@ The following stone block mods are supported:
 - Alpha Biomes
 - CCP's Stone Tweaks
 - Cupro's Stones
+- GlitterStone
 - Gulden Biome
 - [K]Extra Stone
 - [K]Extra Stone(w/ Cupro's Textures)
+- Medieval Overhaul
 - RimNauts
 
 ## FAQ

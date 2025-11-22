@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksHephalithGS</defName>
+        <label>make hephalith blocks x3</label>
+        <description>Cuts hephalith chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Hephalith</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Hephalith</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Hephalith>60</BlocksHS_Hephalith>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksAnkoliteGS</defName>
+        <label>make ankolite blocks x3</label>
+        <description>Cuts ankolite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Ankolite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Ankolite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Ankolite>60</BlocksHS_Ankolite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksFrancoriumGS</defName>
+        <label>make francorium blocks x3</label>
+        <description>Cuts francorium chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Francorium</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Francorium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Francorium>60</BlocksHS_Francorium>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksTomaniteGS</defName>
+        <label>make tomanite blocks x3</label>
+        <description>Cuts tomanite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Tomanite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Tomanite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Tomanite>60</BlocksHS_Tomanite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksKazinthGS</defName>
+        <label>make kazinth blocks x3</label>
+        <description>Cuts kazinth chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Kazinth</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Kazinth</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Kazinth>60</BlocksHS_Kazinth>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksShirathystGS</defName>
+        <label>make shirathyst blocks x3</label>
+        <description>Cuts shirathyst chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Shirathyst</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Shirathyst</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Shirathyst>60</BlocksHS_Shirathyst>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksEreshaleGS</defName>
+        <label>make ereshale blocks x3</label>
+        <description>Cuts ereshale chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Ereshale</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Ereshale</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Ereshale>60</BlocksHS_Ereshale>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksAdjudiceneGS</defName>
+        <label>make adjudicene blocks x3</label>
+        <description>Cuts adjudicene chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Adjudicene</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Adjudicene</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Adjudicene>60</BlocksHS_Adjudicene>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksElidiumGS</defName>
+        <label>make elidium blocks x3</label>
+        <description>Cuts elidium chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Elidium</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Elidium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Elidium>60</BlocksHS_Elidium>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksTairiteGS</defName>
+        <label>make tairite blocks x3</label>
+        <description>Cuts tairite chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Tairite</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Tairite</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Tairite>60</BlocksHS_Tairite>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksFalstoneGS</defName>
+        <label>make falstone blocks x3</label>
+        <description>Cuts falstone chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Falstone</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Falstone</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Falstone>60</BlocksHS_Falstone>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksKingschistGS</defName>
+        <label>make kingschist blocks x3</label>
+        <description>Cuts kingschist chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Kingschist</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Kingschist</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Kingschist>60</BlocksHS_Kingschist>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksSannalithGS</defName>
+        <label>make sannalith blocks x3</label>
+        <description>Cuts sannalith chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Sannalith</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Sannalith</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Sannalith>60</BlocksHS_Sannalith>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksLampesparGS</defName>
+        <label>make lampespar blocks x3</label>
+        <description>Cuts lampespar chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Lampespar</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Lampespar</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Lampespar>60</BlocksHS_Lampespar>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="Harmonea.GlitterStone">
+        <defName>Make_StoneBlocksArdiumGS</defName>
+        <label>make ardium blocks x3</label>
+        <description>Cuts ardium chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkHS_Ardium</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkHS_Ardium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BlocksHS_Ardium>60</BlocksHS_Ardium>
+        </products>
+    </RecipeDef>
+
+</Defs>

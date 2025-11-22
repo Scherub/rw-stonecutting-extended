@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="MakeStoneBlocksBulkBase" MayRequire="DankPyon.Medieval.Overhaul">
+        <defName>Make_StoneBlocksClayMO</defName>
+        <label>make clay blocks x3</label>
+        <description>Cuts clay chunks into usable blocks in bulk.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DankPyon_ChunkClay</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DankPyon_ChunkClay</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <DankPyon_BlocksClay>60</DankPyon_BlocksClay>
+        </products>
+    </RecipeDef>
+
+</Defs>
