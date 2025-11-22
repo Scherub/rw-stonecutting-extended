@@ -37,10 +37,14 @@ The following stone block mods are supported:
     <li>Ludeon.RimWorld.Anomaly</li>
     <li>Ludeon.RimWorld.Odyssey</li>
     <li>brrainz.harmony</li>
-    <li>Ogliss.Cupro.CuprosStones</li>
-    <li>Kura.ExtraStone</li>
-    <li>Kura.ExtraStoneCupro</li>
     <li>cucumpear.stonetweaks</li>
+    <li>DankPyon.Medieval.Overhaul</li>
+    <li>Harmonea.GlitterStone</li>
+    <li>Kura.ExtraStone</li>
+    <li>Kura.ExtraStoneOld</li>
+    <li>Kura.ExtraStoneCuproOld</li>
+    <li>Kura.ExtraStoneCupros</li>
+    <li>Ogliss.Cupro.CuprosStones</li>
     <li>RadZerp.neoRimNauts</li>
     <li>sarg.alphabiomes</li>
   </loadAfter>
