@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.13.0
+- Removed Alpha-Biome Slime recipe from RimWorld v1.6, fixing the issue where a workshop counts as kitchen
+
 ## 1.12.0
 * Added support for the mod GlitterStone
 * Added support for the mod Medieval Overhaul
