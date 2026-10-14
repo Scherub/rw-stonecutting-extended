@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Project Path="StonecuttingExtended 1.3/StonecuttingExtended 1.3.csproj" />
+  <Project Path="StonecuttingExtended 1.4/StonecuttingExtended 1.4.csproj" />
+  <Project Path="StonecuttingExtended 1.5/StonecuttingExtended 1.5.csproj" />
+  <Project Path="StonecuttingExtended 1.6/StonecuttingExtended 1.6.csproj" />
+  <Project Path="StonecuttingExtended 1.7/StonecuttingExtended 1.7.csproj" />
+</Solution>
