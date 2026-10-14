@@ -13,6 +13,12 @@ namespace StonecuttingExtended
 			: base(content)
 		{
 			Settings = GetSettings<StonecuttingSettings>();
+
+#if RIMWORLD_1_6
+			Log.Message("[Stonecutting Extended] Loaded v1.6 assembly");
+#elif RIMWORLD_1_7
+	        Log.Message("[Stonecutting Extended] Loaded v1.7 assembly");
+#endif
 		}
 
 		public override void DoSettingsWindowContents(Rect inRect)
