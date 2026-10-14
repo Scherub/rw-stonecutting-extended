@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.14.0
+* Added support for RimWorld v1.7
+
 ## 1.13.0
 - Removed Alpha-Biome Slime recipe from RimWorld v1.6, fixing the issue where a workshop counts as kitchen
 

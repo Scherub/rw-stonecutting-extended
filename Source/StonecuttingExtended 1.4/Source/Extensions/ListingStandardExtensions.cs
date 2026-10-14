@@ -22,7 +22,7 @@ namespace StonecuttingExtended
 			GameFont oldFont = Text.Font;
 			Text.Font = GameFont.Medium;
 
-#if RIMWORLD_1_6
+#if RIMWORLD_1_6 || RIMWORLD_1_7
 			listingStandard.Label(new(label), -1f, tooltip);
 #else
 			listingStandard.Label(label, -1f, tooltip);
