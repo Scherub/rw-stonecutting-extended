@@ -16,25 +16,13 @@
     <DefineConstants>$(DefineConstants);RIMWORLD_1_6</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="..\StonecuttingExtended 1.4\Source\Definitions\Skill.cs" Link="Source\Definitions\Skill.cs" />
-    <Compile Include="..\StonecuttingExtended 1.4\Source\Defs\DefsUpdater.cs" Link="Source\Defs\DefsUpdater.cs" />
-    <Compile Include="..\StonecuttingExtended 1.4\Source\Extensions\ListingStandardExtensions.cs" Link="Source\Extensions\ListingStandardExtensions.cs" />
-    <Compile Include="..\StonecuttingExtended 1.4\Source\Settings\StonecuttingDisplaySettings.cs" Link="Source\Settings\StonecuttingDisplaySettings.cs" />
-    <Compile Include="..\StonecuttingExtended 1.4\Source\Settings\StonecuttingSettings.cs" Link="Source\Settings\StonecuttingSettings.cs" />
-    <Compile Include="..\StonecuttingExtended 1.4\Source\StonecuttingMod.cs" Link="Source\StonecuttingMod.cs" />
-    <Compile Include="..\StonecuttingExtended 1.4\Source\StonecuttingModStartUp.cs" Link="Source\StonecuttingModStartUp.cs" />
-  </ItemGroup>
+	<!-- Source files are shared with the v1.4 project. Exclude a file here and add a version-specific copy to this project if it needs to diverge. -->
+	<ItemGroup>
+		<Compile Include="..\StonecuttingExtended 1.4\Source\**\*.cs" Link="Source\%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4518" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Source\Definitions\" />
-    <Folder Include="Source\Defs\" />
-    <Folder Include="Source\Extensions\" />
-    <Folder Include="Source\Settings\" />
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4871" />
   </ItemGroup>
 
   <Target Name="CopyAssemblyToModDirectory" AfterTargets="Build">
